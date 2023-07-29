@@ -274,7 +274,7 @@ body {
 }
 
 .card:nth-child(3) {
-  background-color: #AF7AC5;
+  background-image:url("images/paper.jpg");
   height:250px;
   width:300px;
   margin-bottom: 20px;
