@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Analytics</title>
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <div class="grid-container">
+
+      <!-- Header -->
+      <header class="topnav">
+        <div class="main-title">
+          <h2>Analytics</h2>
+        </div>
+        <div class="search-container">
+          
+            <input type="text" placeholder="Search Somethin.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          
+        </div>
+			
+        <div class="notification">
+          <span class="material-icons-outlined">notifications</span>
+         
+        </div>
+        
+        
+      </header>
+      <!-- End Header -->
+
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        
+
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item-yellow">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">public</span> 
+            </a>
+          </li>
+
+
+
+          <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined"></span> 
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">home</span> 
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">star</span> 
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">person</span> 
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">history</span> 
+            </a>
+          </li>
+          
+          <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">swap_vertical_circle</span> 
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined"></span> 
+            </a>
+          </li>
+          <li class="sidebar-list-item-yellow">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">add_box</span> 
+            </a>
+          </li>
+          
+        </ul>
+       
+      </aside>
+      <!-- End Sidebar -->
+
+      <!-- Main -->
+      <main class="main-container">
+        
+
+        <div class="main-cards">
+
+          <div class="card">
+            <div class="card-inner">
+              <h3>Website traffic</h3>
+            
+
+
+              <span >More..</span>
+              <div id="donut">
+               
+
+              </div>
+             
+            </div>
+            <h1>249</h1>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h2>Bounce Rate</h2>
+              <span class="material-icons-outlined">trending_up</span>
+            
+              
+            </div>
+            <h3>26%</h3>   <h3> <span>+5.6% Since last week</span></h3>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+             
+                <h2>Full Report </h2>
+               
+                <h2> <span>/2023</span></h2>
+              
+             
+              
+            </div>
+           
+            <div class="download" >
+              <h3>Download Report</h3>
+            </div>
+           
+          </div>
+
+         
+
+        </div>
+
+        <div class="charts">
+
+          <div class="charts-card">
+            <div class="charts-card-inner">
+              <a href="#" target="_blank" >
+
+                <span class="material-icons-outlined" style="color: rgb(250, 246, 246);" >bar_chart </span> 
+              </a>
+            <h2 class="chart-title">Roi               </h2>
+            <h1> <p style="color: rgb(245, 245, 250);">156%</h1>
+              <h2> <p style="color: rgb(245, 245, 250);">Return On Investment</h2>
+            <div id="area-chart1"></div>
+          </div>
+          </div>
+          <div class="charts-card">
+            
+            <div class="charts-card-inner">
+            <h2 class="chart-title">Total vistors     </h2>
+            <h1> <p style="color: rgb(245, 245, 250);">1.8K</h1>
+              <h2> <p style="color: rgb(25, 250, 5);">^ 17 % last Month</h2>
+            <div id="area-chart2"></div>
+           
+          </div>
+          </div>
+
+          <div class="charts-card">
+            <div class="charts-card-inner">
+            <h2 class="chart-title">Avg time spent   </h2>
+            <h1> <p style="color: rgb(245, 245, 250);">8.65 mins</h1>
+              <h2> <p style="color: rgb(25, 250, 5);">^ 9% last Month</h2>
+            <div id="area-chart3"></div>
+          </div>
+          </div>
+
+        </div>
+      </main>
+      <!-- End Main -->
+
+    </div>
+
+    <!-- Scripts -->
+    <!-- ApexCharts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.5/apexcharts.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
